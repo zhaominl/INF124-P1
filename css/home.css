@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:auto;
+    margin:auto;
+    background-color: burlywood;
+    
+    margin: 0 auto;
+    
+}
+
+header{
+    height: 80px;
+    background-color:burlywood;
+    font-size: 50px;
+    font-family:cursive;
+    color:#8B4513;
+}
+
+.overview{
+    height: 511px;
+    background: #8B4513;
+    font-family: cursive;
+    color:antiquewhite;
+    display:flex;
+    
+}
+.overview h1{
+    float:right;
+}
+.head-text{
+    text-align: center;
+    align-content: center;
+    margin: 100px 50px 40px 50px;
+    font-size: 20px
+
+}
+.head-text p{
+    margin-top: 200px;
+    font-size: 50px;
+    color:beige;
+}
+.item{
+    
+}
+
+.team_name{
+    font-style: sans-serif, serif;
+}
+
+.member_name{
+    font-style: serif;
+}
