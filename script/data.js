@@ -1,4 +1,4 @@
-const CHOCOLATE_DATA = {
+export const CHOCOLATE_DATA = {
     choco_1: {
         img: "https://cdn.yamibuy.net/item/0408b56a4e2e4b46fc7f16ce270c4dc2_265x265.webp",
         name: "LOTTE KOALA MINI COOKIE Chocolate Filling 10pck 195g Family Size",
