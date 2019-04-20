@@ -10,6 +10,7 @@ header h1{
     margin : 0;    
     color :#8B4513;
     background-color:burlywood;
+    text-align : center;
     
 }
 
@@ -19,20 +20,26 @@ header p{
     font-size: 50px;
     background-color:burlywood;
     color:beige;
+    text-align : center;
 }
 
 
-.container{
-    max-width : 1200px;
+.container1{
+    max-width : 1000px;   
     width : 100%;
     margin : 0 auto;
     text-align : center;
+    
 }
 
 img{
     width : 100%;
+    object-fit : contain ;
     transition : all .5s;
 }
+
+
+
 
 
 
@@ -108,6 +115,31 @@ input[type=text]{
     display: inline-block;
     font-size: 20px;
 }
+
+
+
+
+.extraImage1 { grid-area: left; }
+.extraImage2 { grid-area: right; }
+
+
+.container2 {
+  display: grid;
+  grid-template-areas:
+    ' left right'  ; 
+  grid-gap: 10px;
+  background-color: burlywood;
+  padding: 10px;
+}
+
+.container2 > div {
+  background-color: burlywood
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
 
 
 
