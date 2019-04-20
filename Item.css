@@ -1,41 +1,56 @@
+<!DOCTYPE html>
+<html lang ="en">
 
-body{
-    margin:0;
-    padding:0;
-    background-color:burlywood;
-}
+<head>
+    <meta charset = "UTF-8">
+    <title> Chocolate Shopping Page - ITEM </title>
+    <link rel="stylesheet" href="style.css">
 
-header h1{
-    height: 80px;
-    margin : 0;    
-    color :#8B4513;
-    background-color:burlywood;
+</head>
+
+<body>
     
-}
-
-header p{
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-size: 50px;
-    background-color:burlywood;
-    color:beige;
-}
-
-
-.container{
-    max-width : 1200px;
-    width : 100%;
-    margin : 0 auto;
-    text-align : center;
-}
-
-img{
-    width : 100%;
-    transition : all .5s;
-}
+    <section>
+        <div class="container">
+            <header>
+                
+                <h1>Our shop provides you the best taste of Chocolate snacks from Japan</h1>
+                <p>Shop NOW!</p>
+            </header>
+            
 
 
 
+        <main>
+            <div class="itemImage">
+                <img src="thum1.png" alt="">
+                <div class="itemName">
+                    <h10> Name Of the Product </h10>
+                </div>
+            </div>
+
+
+            <div class="fill-In">
+                    <input type="text" placeholder="Name of the Product ">
+                    <input type="text" placeholder="Quantity">
+                    <input type="text" placeholder="Your First Name">
+                    <input type="text" placeholder="Your Last Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="City">
+                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="Your Last Name">
+                    <input type="text" placeholder="Credit Card Number">                    
+                    <input type="text" placeholder="Your Email Address">
+                    <input type="text" placeholder="3 dif shipping method to implement here">
+                    <input type="text" placeholder="Any Comment?">
+                    <button class="button"> PURCHASE </button>
+                    
+            </div>
+
+            <div class="Description">
+                <h11> maybe the Detailed Description here </h11>
+            </div>
 
 
 
@@ -50,101 +65,23 @@ img{
 
 
 
-section{
-    padding: 70px 0;
-    margin-top : 50px;
-    background : burlywood;
+
+        </main> 
+        
+
+
+        </div>
+        
+    </section>
     
-}
 
 
-main{
-    display : grid;
-    grid-template-columns : repeat(2, 2fr);
-    grid-gap : 30px;
-    margin : 0 15px;
-}
+</body>
+<footer>
+        <hr>
+        <p class="team_name">Created by: Team Dama</p>
+        <p class="member_name">Team member: Zhaomin Li | Siyun Ji | Sunjun Ahn</p>
+</footer>
 
 
-.itemImage{
-    position : relative;
-    overflow :  hidden ;
-    max-height : 500px;
-    height : 100%;
-    box-sizing : border-box;
-    box-shadow : 0 2px 10px #ccc;
-    transition : all .5s;
-}
-
-.itemName{
-    position : absolute;
-    left : 0;
-    bottom : 0;
-    width : 100%;
-    font-size: 25px;
-    color : #fff;
-}
-
-input[type=text]{
-    width : 95%;
-    border : 2px solid #aaa;
-    border-radius : 4px;
-    margin : 8px 0;
-    outline : none;
-    padding : 8px;
-    box-sizing : borderbox;
-    transition : .3s;
-}
-
-
-.button{
-    background-color: pink; 
-    border: none;
-    color: grey;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-@media (max-width : 992px){
-    main{
-        grid-template-columns : repeat(2, 1fr);
-        grid-gap : 20px;
-    }
-}
-
-@media (max-width : 767px){
-    main{
-        grid-template-columns : repeat(2, 1fr);
-        grid-gap : 15px;
-    }
-    header{
-        width : 95%;
-    }
-    .blogContent{
-        bottom : 0;
-    }
-}
-
-@media (max-width : 500px){
-    main{
-        grid-template-columns : repeat(1, 1fr);      
-    }
-}
-
-
-
-
-
-
+</html>
