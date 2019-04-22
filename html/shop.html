@@ -9,23 +9,29 @@
 </head>
 
 <body>
+	<script type="text/javascript">
+		function openItemPage( num ){
+    		location.href = location.href.replace('shop','item')+"?num="+num;
+		}	
+	</script>
 	<header>
-		<p>ChocoBooth</p>
+		<center><p>ChocoBooth</p></center>
 	</header>
 	<div class="main">
 		<div class="overview">
 			<div class="head-text">
 				<h1>Our shop provides you the best taste of Chocolate snacks from Japan</h1>
-				<p>Shop NOW!</p>
 			</div>
 		</div>
 
 		<div id="item-list"></div>
 
-		<footer>
-			<p class="team_name">Created by: Team Dama</p>
-			<p class="member_name">Team member: Zhaomin Li | Siyun Ji | Sunjun Ahn</p>
-		</footer>
+		
+	</div>
+	<div class ="team">
+		<center><p> Team Dama</p></center>
+		<center><p> Team Member : Siyun JI & Zhaomin LI & Aiden</p></center>
+		  
 	</div>
 </body>
 

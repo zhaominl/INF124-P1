@@ -1,5 +1,14 @@
 .overview{
-    height: 450px
+    height: 15%;
+}
+
+
+.head-text{
+    text-align: center;
+    align-content: center;
+    margin: 100px 50px 100px 50px;
+    font-size: 20px;
+  
 }
 
 #item-list{
@@ -13,6 +22,20 @@
     width: 20%;
     margin-left: 3%;
     margin-right: 3%; 
+}
+
+@media (max-width : 980px){
+    #item-list{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 5% 5% 5% 5%;
+    }
+    .item-block{
+        text-align: center;
+        width: 30%;
+        margin-left: 3%;
+        margin-right: 3%; 
+    }
 }
 
 td h2{
@@ -32,4 +55,8 @@ td h1{
 .enlarge-pic:hover { 
     transform: scale(1.22);
     margin-bottom: 25px; 
+}
+.team{
+    color: antiquewhite;
+    background-color:darkgoldenrod;
 }

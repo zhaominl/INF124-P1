@@ -133,12 +133,16 @@ input[type=text]{
 }
 
 .container2 > div {
-  background-color: burlywood
+  background-color: burlywood;
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 
+.team{
+    color: antiquewhite;
+    background-color:darkgoldenrod;
+}
 
 
 

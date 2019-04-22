@@ -9,7 +9,7 @@ window.onload = function (){
         "<table>" +
             "<tbody >" + 
                 "<tr>" +
-                    "<td><img class = \" enlarge-pic \" src=\" " + data["choco_"+i].img + " \" /></td> " +
+                    "<td><img class = \" enlarge-pic \" onclick=\" openItemPage("+ i + ") \" src=\" " + data["choco_"+i].img + " \" /></td> " +
                 "</tr>" +
                 "<tr>" +
                     "<td><h2> "+ data["choco_"+i].name +  "</h2> </td> " +
