@@ -15,7 +15,7 @@ To run the program:
 
 5.  On the shop page, user can select the item image to purchase. It will enter the item page, with the item number as the parameter passed to the next page.
 
-6.  On the item page, user needs to input all the information based on instructions. If any blank is empty or improperly filled, the page would pop an alert to indicate which part is missing or improperly filled in order to let the user fix with correct information.
+6.  On the item page, user needs to input all the information based on instructions. If any blank is empty or improperly filled, then the client side browser will pop an alert to indicate which part is missing or improperly filled so that user can fix with correct information.
 
 7.  If all the blanks are properly filled, then the web directs the user to send a confirmation email. The page is redircted to the shop page.
 
