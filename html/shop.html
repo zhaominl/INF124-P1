@@ -11,7 +11,10 @@
 <body>
 	<script type="text/javascript">
 		function openItemPage( num ){
-    		location.href = location.href.replace('shop','item')+"?num="+num;
+			if (location.href[location.href.length - 1]!=='?')
+				location.href = location.href.replace('shop','item')+"?num="+num;
+			else
+				location.href = location.href.replace('shop','item')+"num="+num;
 		}	
 	</script>
 	<header>
